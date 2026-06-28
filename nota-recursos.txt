@@ -1,0 +1,8 @@
+Recursos del sitio
+===================
+Esta carpeta contiene materiales de apoyo originales para descarga. Por respeto a los derechos de autor, el libro completo cargado como fuente NO se incluye dentro del ZIP.
+
+Para añadir nuevos PDF, guías o ensayos:
+1. Copia el archivo en assets/docs/.
+2. Abre assets/js/data.js.
+3. Agrega un nuevo objeto en la lista resources con título, tipo, descripción y ruta.

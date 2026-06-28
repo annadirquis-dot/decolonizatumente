@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 950" role="img" aria-label="Paisaje andino abstracto con montañas y sol">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#efe3cf"/>
+      <stop offset=".48" stop-color="#d79a5d"/>
+      <stop offset="1" stop-color="#5b2f26"/>
+    </linearGradient>
+    <linearGradient id="mount" x1="0" x2="1"><stop stop-color="#234036"/><stop offset="1" stop-color="#7d3f2d"/></linearGradient>
+    <pattern id="geo" width="90" height="90" patternUnits="userSpaceOnUse">
+      <path d="M0 45h90M45 0v90" stroke="#fff5" stroke-width="2"/>
+      <path d="M45 8l37 37-37 37L8 45z" fill="none" stroke="#fff7" stroke-width="3"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="950" fill="url(#sky)"/>
+  <circle cx="1230" cy="205" r="96" fill="#e0ad43" opacity=".92"/>
+  <circle cx="1230" cy="205" r="135" fill="none" stroke="#e0ad43" stroke-width="2" opacity=".55"/>
+  <path d="M0 690 L250 420 L380 620 L560 365 L690 615 L830 315 L1030 660 L1210 390 L1600 705 V950 H0z" fill="#1f3a33" opacity=".86"/>
+  <path d="M0 790 L260 570 L420 750 L640 520 L860 805 L1080 595 L1600 820 V950 H0z" fill="url(#mount)" opacity=".95"/>
+  <path d="M0 765c200-36 370-25 530 28s310 52 520 2 380-31 550 37v118H0z" fill="#2e1812" opacity=".32"/>
+  <rect y="0" width="1600" height="950" fill="url(#geo)" opacity=".15"/>
+  <g opacity=".82">
+    <rect x="0" y="886" width="1600" height="64" fill="#281610"/>
+    <rect x="0" y="886" width="1600" height="12" fill="#bd3f2a"/>
+    <rect x="0" y="904" width="1600" height="10" fill="#d7a73c"/>
+    <rect x="0" y="920" width="1600" height="10" fill="#285b47"/>
+    <path d="M40 918h60l-30-24zm120 0h60l-30-24zm120 0h60l-30-24zm120 0h60l-30-24zm120 0h60l-30-24zm120 0h60l-30-24zm120 0h60l-30-24zm120 0h60l-30-24zm120 0h60l-30-24zm120 0h60l-30-24zm120 0h60l-30-24zm120 0h60l-30-24z" fill="#fff4"/>
+  </g>
+</svg>

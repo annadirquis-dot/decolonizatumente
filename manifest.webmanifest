@@ -1,0 +1,10 @@
+{
+  "name": "Decoloniza tu Mente",
+  "short_name": "Decoloniza",
+  "description": "Pensamiento decolonial, educación intercultural y saberes originarios.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fbf7ef",
+  "theme_color": "#9f4a32",
+  "icons": [{"src": "assets/icons/favicon.svg", "sizes": "64x64", "type": "image/svg+xml"}]
+}
